@@ -7,8 +7,8 @@ const port = 8080;
 const mysql = require('mysql');
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: '6285',
+    user: 'USUARIO',
+    password: 'SUASENHA',
     database: 'project_ibm_watson_db'
 });
 connection.connect();
