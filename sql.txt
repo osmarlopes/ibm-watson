@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS project_ibm_watson_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE project_ibm_watson_db;
+
+CREATE TABLE IF NOT EXISTS comments (
+    id INT NOT NULL AUTO_INCREMENT,
+    comment varchar(250) NOT NULL DEFAULT '',
+    PRIMARY KEY (id)
+)
